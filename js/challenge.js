@@ -7,7 +7,7 @@ let result=0;
 let minusButton=document.getElementById("minus");
 let plusBitton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
-
+let internalId;
 
 
 //submit button//
@@ -17,9 +17,18 @@ subButton.addEventListener("click", function(){
 
 
 //counter//
-let internalId=setInterval( function(){
+/*let internalId=setInterval( function(){
       counter.innerText= result++;
-    }, 1000);
+    }, 1000);*/
+
+function counterIncrement () {
+counter.innerText= result++;
+}
+
+internalId=setInterval(counterIncrement, 1000);
+
+
+
 
 
 //pause button//
@@ -31,12 +40,11 @@ plusBitton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
 }else{
-
 minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
 pauseButton.innerText="pause";
-
+internalId=setInterval(counterIncrement, 1000);
 }
 });
 
