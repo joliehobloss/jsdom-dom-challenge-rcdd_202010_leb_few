@@ -14,4 +14,6 @@ let result=0;
       counter.innerText= result++;
     }, 1000);
 
+//plus and minus buttons//
+let counter=document.getElementById("counter");
 
