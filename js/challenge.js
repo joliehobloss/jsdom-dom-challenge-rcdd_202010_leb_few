@@ -17,3 +17,5 @@ let result=0;
 //plus and minus buttons//
 let minusButten=document.getElementById("minus");
 let plusBitten=document.getElementById("plus");
+
+
