@@ -11,8 +11,9 @@ subButten.addEventListener("click", function(){
 //counter//
 function counterIncrease(){
             let counter=document.getElementById("counter");
-            var c= counter.textContent;
-            counter.innerHTML = c++;
-        }
+           function delayedAlert() {
+  timeoutID = window.setTimeout(window.alert, 2*1000, 'That was really slow!');
+} 
+            
+}
 
- window.onload = counterIncrease();
