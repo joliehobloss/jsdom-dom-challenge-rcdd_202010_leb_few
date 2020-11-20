@@ -57,7 +57,7 @@ internalId=setInterval(counterIncrement, 1000);
 //heart button//
 minusButton.addEventListener("click", function(){
  // clearTimeout(internalId);
-  liketList.innerHTML += "<li>"+ result +"</li>"
+  liketList.innerHTML += "<li>"+ counter.innerText +"</li>"
 });
 
 
