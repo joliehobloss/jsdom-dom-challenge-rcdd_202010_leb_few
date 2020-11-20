@@ -15,5 +15,5 @@ let result=0;
     }, 1000);
 
 //plus and minus buttons//
-let counter=document.getElementById("counter");
-
+let minusButten=document.getElementById("minus");
+let plusBitten=document.getElementById("plus");
