@@ -17,8 +17,6 @@ let result=0;
 //pause buttons//
 let pauseButten=document.getElementById("pause");
 pauseButten.addEventListener("click", function(){
-clearTimeout(t);
-timer_is_on=0;
-document.getElementById('txt').value=c;
+clearTimeout(result);
 });
 
