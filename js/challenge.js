@@ -9,7 +9,8 @@ subButten.addEventListener("click", function(){
 
 //counter//
 window.setTimeout(function() {
-  alert('Hello World!');
+  let i=0;
+  alert(i++);
 }, 1000); 
 
 
