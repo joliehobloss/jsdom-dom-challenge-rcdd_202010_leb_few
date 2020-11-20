@@ -6,6 +6,7 @@ let pauseButten=document.getElementById("pause");
 let result=0;
 let minusButten=document.getElementById("counter");
 let plusBittun=document.getElementById("pause");
+let likeButten=document.getElementById("pause");
 
 //submit butten//
 subButten.addEventListener("click", function(){
