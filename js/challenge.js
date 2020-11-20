@@ -1,0 +1,1 @@
+let comments=document.get
