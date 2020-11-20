@@ -6,7 +6,7 @@ let pauseButton=document.getElementById("pause");
 let minusButton=document.getElementById("minus");
 let plusButton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
-let liketList = document.getElementsByClassName("likes");
+let liketList = document.getElementById("likes");
 let result=0;
 let internalId;
 
