@@ -4,7 +4,8 @@ let inputComment=document.getElementById("comment-input");
 let counter=document.getElementById("counter");
 let pauseButten=document.getElementById("pause");
 let result=0;
-
+let minusButten=document.getElementById("counter");
+let plusBittun=document.getElementById("pause");
 
 //submit butten//
 subButten.addEventListener("click", function(){
