@@ -10,13 +10,13 @@ subButten.addEventListener("click", function(){
 //counter//
 let counter=document.getElementById("counter");
 let result=0;
- setInterval( function(){
+let internalId=setInterval( function(){
       counter.innerText= result++;
     }, 1000);
 
 //pause buttons//
 let pauseButten=document.getElementById("pause");
 pauseButten.addEventListener("click", function(){
-clearTimeout(result);
+clearTimeout(internalId);
 });
 
