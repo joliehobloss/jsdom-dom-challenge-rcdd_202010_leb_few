@@ -9,6 +9,7 @@ let plusBitton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
 
 
+
 //submit button//
 subButton.addEventListener("click", function(){
   listComment.innerText=inputComment.value;
@@ -35,7 +36,7 @@ minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
 pauseButton.innerText="pause";
-let internalId=setInterval( function(){
+setInterval( function(){
       counter.innerText= result++;
     }, 1000);
 
