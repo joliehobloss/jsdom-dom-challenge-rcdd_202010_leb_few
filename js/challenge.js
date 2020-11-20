@@ -36,9 +36,6 @@ minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
 pauseButton.innerText="pause";
-setInterval( function(){
-      counter.innerText= result++;
-    }, 1000);
 
 }
 });
