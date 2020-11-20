@@ -45,7 +45,7 @@ internalId=setInterval(counterIncrement, 1000);
 plusButton.addEventListener("click", function(){
  clearTimeout(internalId);
  result=parseInt(counter.innerText)+1;
- internalId=setInterval(counterIncrement, 1000);
+// internalId=setInterval(counterIncrement, 1000);
 });
 
 
