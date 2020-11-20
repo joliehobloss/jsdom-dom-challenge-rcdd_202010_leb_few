@@ -8,9 +8,11 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-let counter=document.getElementById("counter");
-function delayedAlert() {
-  timeoutID = window.setTimeout(window.alert, 2*1000, 'That was really slow!');
+
+function counterIncrease() {
+  let counter=document.getElementById("counter");
+  let result=counter.innerText
+  timeoutID = window.setTimeout(window.alert, 1000, 'That was really slow!');
 } 
             
 
