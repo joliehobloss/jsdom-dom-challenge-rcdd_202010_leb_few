@@ -9,11 +9,10 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-
 function counterIncrease(){
             let counter=document.getElementById("counter");
             var c= counter.textContent;
-            counter.innerHTML = counter;
+            counter.innerHTML = c++;
         }
 
-        window.onload = increase;
+ window.onload = counterIncrease();
