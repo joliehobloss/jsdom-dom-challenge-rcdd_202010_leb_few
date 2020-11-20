@@ -34,11 +34,10 @@ minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
 pauseButton.innerText="pause";
-
+result=0;
 let internalId=setInterval( function(){
       counter.innerText= result++;
     }, 1000);
-
 
 }
 
