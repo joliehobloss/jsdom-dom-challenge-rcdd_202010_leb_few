@@ -12,7 +12,7 @@ function counterIncrease() {
   let count=document.getElementById("counter");
   let counter=count.textContent++;
   let result=count.innerText=counter;
-  timeoutID = window.setTimeout(result, 1000, 'That was really slow!');
+  window.onload=window.setTimeout(result, 1000);
 } 
             
 
