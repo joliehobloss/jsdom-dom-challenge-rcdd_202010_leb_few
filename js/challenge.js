@@ -6,6 +6,7 @@ let pauseButton=document.getElementById("pause");
 let minusButton=document.getElementById("minus");
 let plusButton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
+var x = document.getElementsByClassName("example");
 let result=0;
 let internalId;
 
