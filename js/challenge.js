@@ -1,1 +1,1 @@
-let comments=document.get
+let comments=document.getElementsByClassName("example");
