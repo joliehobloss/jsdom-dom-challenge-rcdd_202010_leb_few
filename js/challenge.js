@@ -32,6 +32,7 @@ if(pauseButten.innerText=="resume"){
 minusButten.disabled = false;
 plusBittun.disabled = false;
 heartButten.disabled = false;
+pauseButten.innerText="pause";
 }
 
 });
