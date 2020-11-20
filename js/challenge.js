@@ -9,4 +9,4 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-
+let counter=document.getElementById("submit");
