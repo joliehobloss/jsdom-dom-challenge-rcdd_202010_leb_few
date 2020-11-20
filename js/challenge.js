@@ -22,7 +22,7 @@ let internalId=setInterval( function(){
 
 
 //pause button//
-pauseButten.addEventListener("click", function(){
+pauseButton.addEventListener("click", function(){
 clearTimeout(internalId);
 minusButton.disabled = true;
 plusBitton.disabled = true;
