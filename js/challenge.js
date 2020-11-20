@@ -17,8 +17,8 @@ subButten.addEventListener("click", function(){
          
 subButten.addEventListener("click", function(){
   let count=document.getElementById("counter");
-  
-  listComment.innerText=parseInt(count.innerText)++;
+  let result=parseInt(count.innerText)+1;
+  listComment.innerText=result;
 });            
 
 
