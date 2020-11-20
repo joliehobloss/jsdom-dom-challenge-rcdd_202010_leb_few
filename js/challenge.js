@@ -17,18 +17,10 @@ subButton.addEventListener("click", function(){
 
 
 //counter//
-/*let internalId=setInterval( function(){
-      counter.innerText= result++;
-    }, 1000);*/
-
 function counterIncrement () {
 counter.innerText= result++;
 }
-
 internalId=setInterval(counterIncrement, 1000);
-
-
-
 
 
 //pause button//
@@ -48,6 +40,9 @@ pauseButton.innerText="pause";
 internalId=setInterval(counterIncrement, 1000);
 }
 });
+
+
+
 
 
 
