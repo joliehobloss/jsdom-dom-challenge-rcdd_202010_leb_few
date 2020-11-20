@@ -9,7 +9,11 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-let counter=document.getElementById("counter");
-counter.addEventListener("click", function(){
-  listComment.innerText=inputComment.value;
-});
+
+function counterIncrease(){
+            let counter=document.getElementById("counter");
+            var c= counter.textContent;
+            counter.innerHTML = counter;
+        }
+
+        window.onload = increase;
