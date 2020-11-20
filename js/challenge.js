@@ -32,7 +32,7 @@ plusButton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
 }else{
-//result=0;
+result=0;
 minusButton.disabled = false;
 plusButton.disabled = false;
 heartButton.disabled = false;
@@ -44,8 +44,8 @@ internalId=setInterval(counterIncrement, 1000);
 //plus and minus button//
 plusButton.addEventListener("click", function(){
  clearTimeout(internalId);
- result=parseInt(counter.innerText)+1;
-// internalId=setInterval(counterIncrement, 1000);
+ result++;
+internalId=setInterval(counterIncrement, 1000);
 });
 
 
