@@ -8,6 +8,8 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
- 
+window.setTimeout(function() {
+  alert('Hello World!');
+}, 500); 
 
 
