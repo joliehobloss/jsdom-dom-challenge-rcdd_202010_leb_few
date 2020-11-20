@@ -4,7 +4,7 @@ let inputComment=document.getElementById("comment-input");
 let counter=document.getElementById("counter");
 let pauseButton=document.getElementById("pause");
 let minusButton=document.getElementById("minus");
-let plusBitton=document.getElementById("plus");
+let plusButton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
 let result=0;
 let internalId;
@@ -28,20 +28,25 @@ pauseButton.addEventListener("click", function(){
 if(pauseButton.innerText=="pause"){
 clearTimeout(internalId);
 minusButton.disabled = true;
-plusBitton.disabled = true;
+plusButton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
 }else{
 result=0;
 minusButton.disabled = false;
-plusBitton.disabled = false;
+plusButton.disabled = false;
 heartButton.disabled = false;
 pauseButton.innerText="pause";
 internalId=setInterval(counterIncrement, 1000);
 }
 });
 
-
+//plus and minus button//
+plusButton.addEventListener("click", function(){
+ clearTimeout(internalId);
+ counter.innerText=counter.innerText+1;
+ internalId=setInterval(counterIncrement, 1000);
+});
 
 
 
