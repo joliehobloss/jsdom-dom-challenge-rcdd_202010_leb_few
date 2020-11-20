@@ -11,9 +11,8 @@ subButten.addEventListener("click", function(){
 function counterIncrease() {
   let count=document.getElementById("counter");
   let result=parseInt(count.innerText)+1;
- listComment.innerText=window.setTimeout(counterIncrease(), 1000); 
 } 
     
-           
+listComment.innerText=window.setTimeout(counterIncrease(), 1000);        
 
 
