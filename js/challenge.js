@@ -15,4 +15,9 @@ let result=0;
     }, 1000);
 
 //pause buttons//
-
+function pauseCount()
+{
+clearTimeout(t);
+timer_is_on=0;
+document.getElementById('txt').value=c;
+}
