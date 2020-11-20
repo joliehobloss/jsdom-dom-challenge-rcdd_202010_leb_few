@@ -11,7 +11,6 @@ subButten.addEventListener("click", function(){
 let counter=document.getElementById("counter");
 let result=0;
  setInterval( function(){
-      result++;
       counter.innerText= result++;
     }, 1000);
 
