@@ -8,12 +8,12 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-//function counterIncrease() {
+function counterIncrease() {
   let count=document.getElementById("counter");
   let result=parseInt(count.innerText)+1;
-  listComment.innerText=window.setTimeout(result, 1000);
-//} 
-         
+  return result;
+} 
+listComment.innerText=window.setTimeout(counterIncrease(), 1000);     
            
 
 
