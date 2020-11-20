@@ -25,6 +25,8 @@ let internalId=setInterval( function(){
 pauseButten.addEventListener("click", function(){
 clearTimeout(internalId);
 minusButten.disabled = true;
-
+plusBittun.disabled = true;
+heartButten.disabled = true;
+pauseButten.value="",
 });
 
