@@ -27,7 +27,7 @@ clearTimeout(internalId);
 minusButten.disabled = true;
 plusBittun.disabled = true;
 heartButten.disabled = true;
-pauseButten.value=""
+pauseButten.value="resume";
 
 });
 
