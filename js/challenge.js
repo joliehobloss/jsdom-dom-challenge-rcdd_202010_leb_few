@@ -8,9 +8,8 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-window.setTimeout(function() {
-  let i=0;
-  alert(i++);
-}, 1000); 
+ setInterval( function(){
+      let counter=document.getElementById("submit");
+    }, 1000);
 
 
