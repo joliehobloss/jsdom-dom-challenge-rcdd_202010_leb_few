@@ -33,7 +33,6 @@ plusButton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
 }else{
-result=0;
 minusButton.disabled = false;
 plusButton.disabled = false;
 heartButton.disabled = false;
