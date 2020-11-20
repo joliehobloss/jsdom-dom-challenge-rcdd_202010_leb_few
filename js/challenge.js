@@ -1,1 +1,1 @@
-let comments=document.getElementsByClassName("comment-input");
+let inputComment=document.getElementById("comment-input");
