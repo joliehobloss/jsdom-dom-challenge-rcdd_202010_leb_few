@@ -1,2 +1,2 @@
 let inputComment=document.getElementById("comment-input");
-let comment=document.getElementsByClassName("example");
+let comment=document.getElementById("comment-input");
