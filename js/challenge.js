@@ -9,7 +9,6 @@ subButten.addEventListener("click", function(){
 
 //counter//
  
-let i=0;   
-listComment.innerText=window.setTimeout(i++, 1000);        
+window.load=window.setTimeout(i++, 1000);        
 
 
