@@ -8,17 +8,12 @@ subButten.addEventListener("click", function(){
 });*/
 
 //counter//
-/*function counterIncrease() {
-  let count=document.getElementById("counter");
-  let counter=count.textContent++;
-  let result=count.innerText=counter;
-  window.setTimeout(result, 1000);
-} */
-         
-subButten.addEventListener("click", function(){
+//function counterIncrease() {
   let count=document.getElementById("counter");
   let result=parseInt(count.innerText)+1;
-  listComment.innerText=result;
-});            
+  listComment.innerText=window.setTimeout(result, 1000);
+//} 
+         
+           
 
 
