@@ -33,7 +33,7 @@ pauseButton.innerText="resume";
 minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
-
+pauseButton.innerText="pause";
 }
 
 });
