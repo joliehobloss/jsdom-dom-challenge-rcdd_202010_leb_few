@@ -19,3 +19,6 @@ let minusButten=document.getElementById("minus");
 let plusBitten=document.getElementById("plus");
 
 
+function plusButton(){
+  
+}
