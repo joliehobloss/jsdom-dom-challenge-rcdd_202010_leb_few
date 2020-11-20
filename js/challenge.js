@@ -21,7 +21,7 @@ let internalId=setInterval( function(){
     }, 1000);
 
 
-//pause buttons//
+//pause button//
 pauseButten.addEventListener("click", function(){
 clearTimeout(internalId);
 minusButten.disabled = true;
