@@ -9,6 +9,5 @@ subButten.addEventListener("click", function(){
 
 //counter//
  
-window.onload=window.setTimeout(i++, 1000);        
 
 
