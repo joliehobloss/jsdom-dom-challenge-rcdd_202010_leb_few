@@ -23,11 +23,19 @@ let internalId=setInterval( function(){
 
 //pause button//
 pauseButton.addEventListener("click", function(){
+if(pauseButton.innerText=="pause"){
 clearTimeout(internalId);
 minusButton.disabled = true;
 plusBitton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
+}else{
+minusButton.disabled = false;
+plusBitton.disabled = false;
+heartButton.disabled = false;
+
+}
+
 });
 
 
