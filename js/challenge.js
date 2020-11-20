@@ -8,9 +8,9 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
+let counter=document.getElementById("counter");
+let result=0;
  setInterval( function(){
-      let counter=document.getElementById("counter");
-      let result=0;
       result++;
       counter.innerText= result++;
     }, 1000);
