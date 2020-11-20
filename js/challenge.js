@@ -9,7 +9,8 @@ subButten.addEventListener("click", function(){
 
 //counter//
  setInterval( function(){
-      let counter=document.getElementById("submit");
+      let counter=document.getElementById("counter");
+      let result
     }, 1000);
 
 
