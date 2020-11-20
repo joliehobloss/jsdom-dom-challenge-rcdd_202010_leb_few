@@ -48,11 +48,11 @@ plusButton.addEventListener("click", function(){
 internalId=setInterval(counterIncrement, 1000);
 });
 
-/*minusButton.addEventListener("click", function(){
+minusButton.addEventListener("click", function(){
  clearTimeout(internalId);
  result--;
 internalId=setInterval(counterIncrement, 1000);
-});*/
+});
 
 //heart button//
 minusButton.addEventListener("click", function(){
