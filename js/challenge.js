@@ -4,9 +4,10 @@ let inputComment=document.getElementById("comment-input");
 let counter=document.getElementById("counter");
 let pauseButten=document.getElementById("pause");
 let result=0;
-let minusButten=document.getElementById("counter");
-let plusBittun=document.getElementById("pause");
-let likeButten=document.getElementById("pause");
+let minusButten=document.getElementById("minus");
+let plusBittun=document.getElementById("plus");
+let heartButten=document.getElementById("heart");
+
 
 //submit butten//
 subButten.addEventListener("click", function(){
@@ -23,6 +24,7 @@ let internalId=setInterval( function(){
 //pause buttons//
 pauseButten.addEventListener("click", function(){
 clearTimeout(internalId);
+minusButten.dis
 
 });
 
