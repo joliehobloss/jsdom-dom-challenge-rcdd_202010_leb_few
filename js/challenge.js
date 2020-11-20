@@ -6,7 +6,7 @@ let pauseButton=document.getElementById("pause");
 let minusButton=document.getElementById("minus");
 let plusButton=document.getElementById("plus");
 let heartButton=document.getElementById("heart");
-var x = document.getElementsByClassName("example");
+let liketList = document.getElementsByClassName("likes");
 let result=0;
 let internalId;
 
@@ -57,7 +57,8 @@ internalId=setInterval(counterIncrement, 1000);
 
 //heart button//
 heartButton.addEventListener("click", function(){
-  
+  clearTimeout(internalId);
+  liketList.inn
 });
 
 
