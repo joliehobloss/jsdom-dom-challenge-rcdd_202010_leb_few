@@ -30,12 +30,6 @@ heartButten.disabled = true;
 pauseButten.innerText="resume";
 });
 
-pauseButten.addEventListener("click", function(){
-clearTimeout(internalId);
-if(pauseButten.innerText=="resume")
-minusButten.disabled = false;
-plusBittun.disabled = false;
-heartButten.disabled = false;
-});
+
 
 
