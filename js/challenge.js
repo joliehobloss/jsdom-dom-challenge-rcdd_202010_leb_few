@@ -55,7 +55,7 @@ internalId=setInterval(counterIncrement, 1000);
 });
 
 //heart button//
-minusButton.addEventListener("click", function(){
+heartButton.addEventListener("click", function(){
  // clearTimeout(internalId);
   liketList.innerHTML += "<li>"+ counter.innerText +"</li>"
 });
