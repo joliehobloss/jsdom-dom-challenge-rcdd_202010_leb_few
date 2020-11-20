@@ -15,6 +15,7 @@ let result=0;
     }, 1000);
 
 //pause buttons//
+let pauseButten=document.getElementById("counter");
 function pauseCount()
 {
 clearTimeout(t);
