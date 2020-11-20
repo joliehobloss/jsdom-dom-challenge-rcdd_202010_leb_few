@@ -16,9 +16,9 @@ let result=0;
 
 //pause buttons//
 let pauseButten=document.getElementById("pause");
-function pauseCount()
-{
-clearTimeout(t);
+subButten.addEventListener("click", function(){
+  clearTimeout(t);
 timer_is_on=0;
 document.getElementById('txt').value=c;
-}
+});
+
