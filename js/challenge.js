@@ -28,12 +28,5 @@ minusButten.disabled = true;
 plusBittun.disabled = true;
 heartButten.disabled = true;
 pauseButten.innerText="resume";
-if(pauseButten.innerText=="resume"){
-minusButten.disabled = false;
-plusBittun.disabled = false;
-heartButten.disabled = false;
-pauseButten.innerText="pause";
-}
-
 });
 
