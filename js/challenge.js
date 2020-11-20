@@ -31,7 +31,7 @@ plusBitton.disabled = true;
 heartButton.disabled = true;
 pauseButton.innerText="resume";
 }else{
-result=0;
+
 minusButton.disabled = false;
 plusBitton.disabled = false;
 heartButton.disabled = false;
