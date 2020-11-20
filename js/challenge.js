@@ -8,11 +8,11 @@ subButten.addEventListener("click", function(){
 });
 
 //counter//
-
 function counterIncrease() {
-  let counter=document.getElementById("counter");
-  let result=counter.innerText
-  timeoutID = window.setTimeout(window.alert, 1000, 'That was really slow!');
+  let count=document.getElementById("counter");
+  let counter=count.textContent++;
+  let result=count.innerText=counter;
+  timeoutID = window.setTimeout(result, 1000, 'That was really slow!');
 } 
             
 
